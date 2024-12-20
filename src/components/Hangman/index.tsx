@@ -89,8 +89,8 @@ const Hangman = () => {
 
             <div className={style.left}>
                 <div className={style.msg}>
-                    {isLooser && " Looser : Press Enter and replay"}
-                    {isWinner && " Winner : Press Enter and replay"}
+                    {isLooser && " You Loose : Press Enter and replay"}
+                    {isWinner && " You Win : Press Enter and replay"}
                 </div>
 
                 <HangmanDrawing wrongGuessCount={wrongGuess.length} />
