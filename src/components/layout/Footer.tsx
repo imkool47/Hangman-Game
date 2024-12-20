@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className={style.footer}>
             <div className={style.footerwrap}>
-                "Testing automatic deployment - Mukul"
+                Made by Mukul!!!
             </div>
         </div >
     )
